@@ -1,0 +1,13 @@
+{
+  "name": "EventWeb",
+  "description": "A framework for event day sites.",
+  "version": "0.0.1",
+  "author" : "Rigoberto Perez <rlperez@udel.edu>",
+  "contributors": [],
+  "private": true,
+  "repository": {"type": "git", "url": "git://github.com/rlperez/EventWeb.git"},
+  "dependencies": {
+    "express": ">=3.x",
+	"karma": ">=0.10.x"
+  }
+}
