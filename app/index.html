@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Event Web</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="view-container">
+      <div ng-view class="view-frame"></div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="lib/jquery/jquery-1.10.2.min.js">\x3C/script>');</script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-resource.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.min.js"></script>
+    <script>
+      window.angular || document.write('<script src="lib/angular/angular.min.js">\x3C/script>'
+        + '<script src="lib/angular/angular-animate.min.js">\x3C/script>'
+        + '<script src="lib/angular/angular-resource.min.js">\x3C/script>'
+        + '<script src="lib/angular/angular-route.min.js">\x3C/script>'
+      )
+    </script>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+  </body>
+</html>
